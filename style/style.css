@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  background-color: #acfcd9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main h1 {
+  font-size: 2.2em;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+}
+
+main ul {
+  width: 30%;
+  vertical-align: middle;
+  margin: 0 100px;
+}
+
+main ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: middle;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+  padding: 3% 0;
+  width: 100%;
+  background-color: pink;
+}
+
+main ul li p {
+  font-size: 1.2em;
+  margin-left: 2%;
+}
+
+main ul li h2 {
+  font-size: 1.2em;
+  margin: 0 -25%;
+}
+
+main ul li span {
+  cursor: pointer;
+  margin-right: 2%;
+}
+
+main .buttons {
+  width: 30%;
+  height: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: purple;
+}
+
+main .buttons span {
+  margin: 10px 10%;
+  font-size: 2em;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
