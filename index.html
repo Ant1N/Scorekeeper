@@ -15,21 +15,9 @@
     <main>
         <h1>Score keeper</h1>
         <ul id="parent-list">
-            <li class="player" id="1">
-                <p>New player</p>
-                <span onclick="removeScore()" class="snase"><i class="fas fa-minus-circle"></i></span>
-                <h2 class="score">2</h2>
-                <span onclick="addScore()"><i class="fas fa-plus-circle"></i></span>
-            </li>
-            <li class="player" id="2">
-                <p>New player</p>
-                <span onclick="removeScore()" class="snase"><i class="fas fa-minus-circle"></i></span>
-                <h2 class="score">2</h2>
-                <span onclick="addScore()"><i class="fas fa-plus-circle"></i></span>
-            </li>
         </ul>
         <div class="buttons">
-            <span id="reset-game"><i class="fas fa-sync-alt"></i></span>
+            <span onclick="resetGame()"><i class="fas fa-sync-alt"></i></span>
             <span onclick="addPlayer()"><i class="fa fa-user-plus"></i></span>
         </div>
     </main>
@@ -37,12 +25,3 @@
 </body>
 
 </html>
-
-<!-- <div class="player">
-    <div class="player-content">
-        <p>New player</p>
-        <span onclick="removeScore()"><i class="fas fa-minus-circle"></i></span>
-        <h2 class="score">2</h2>
-        <span onclick="addScore()"><i class="fas fa-plus-circle"></i></span>
-    </div>
-</div> -->
